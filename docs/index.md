@@ -3,32 +3,46 @@
 layout: home
 
 hero:
-  name: "General Education Courses"
-  text: "......."
-  tagline: .......
+  name: "Fundamental Skills for Robotics Learning"
+  text: "For beginners"
+  tagline: >
+    These courses introduce key technologies used in robotics and provide
+    hands-on experience with Linux, Python, OpenCV, and ROS.
+
 
   image:
-    src: /vscode.gif
-    alt: scp1
+    src: /giphy.gif
+    alt: giphy
+
 
   actions:
     - theme: brand
       text: ▶ Start Reading
-      link: /Language/English/1 ROS Overview and Environment Setup
+      link: /Linux/en-US/Chapter 1.md
     - theme: alt
       text: Video Tutorials
       link: https://www.bilibili.com/
 
 features:
-  - title: Roboparks
-    details: about Roboparks
-    link: /api-examples
+
+
+  - icon: 🐧
+    title: Linux Course
+    details: In this course, students will learn how to use essential Linux command-line tools to navigate the file system, manage files, and work efficiently in a terminal-based environment.
+    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
     
-  - title: Fira
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
+  - icon: 🐍
+    title: Python
+    details: In this course, students will learn how to write and run Python programs, understand fundamental programming concepts, and build a foundation for automation, data processing, and AI applications.
+    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
     
-  - title: Join our Summer Campus
-    details: About our summer Campus
-    link: /api-examples
+  - icon: 📷
+    title: OpenCV
+    details: In this course, students will learn how to use OpenCV with Python to process images and video streams, enabling them to build basic computer vision and visual recognition applications.
+    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+
+  - icon: 🤖 
+    title: ROS
+    details: In this course, students will learn the core concepts of ROS and how to create nodes that communicate through topics, preparing them to develop and organize real robotic systems.
+    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
 ---

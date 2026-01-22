@@ -1,4 +1,26 @@
 export default{
+    '/Linux/en-US/':[{
+      text: 'Linux 课件'},
+      {
+        text: 'Chapter 1: Linux Fundamentals and System Usage',
+        link: '/Linux/en-US/Chapter 1.md',
+        items: [
+          { text: '1.1 Linux Basics', 
+            link: '/Linux/en-US/1.1 What Is Linux.md',
+            collapsed: true,
+            items: [
+              { text: '1.1.1 Linux Basics', link: '/Linux/en-US/1.1.1 Operating System vs Kernel' },
+              { text: '1.1.2 Basic Linux Operations and Commands', link: '/Linux/en-US/1.1.2 Linux Use Cases' },
+              { text: '1.1.3 Evolution of ROS', link: '/Linux/en-US/1.1.3 Core Differences Between Linux and Windows' },
+            ]
+           },
+           { text: '1.2 Basic Linux Operations and Commands', 
+            link: '/Linux/en-US/1.2 Basic Linux Operations and Commands.md',
+            collapsed: true,
+          },                   
+      ]
+    },],
+    
     '/Language/ROS1/中文/':[{
         text: 'ROS1 课件'},
       {
