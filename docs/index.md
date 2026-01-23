@@ -18,7 +18,7 @@ hero:
   actions:
     - theme: brand
       text: ▶ Start Reading
-      link: /Linux/en-US/Chapter 1.md
+      link: /Linux/1.0.0
     - theme: alt
       text: Video Tutorials
       link: https://www.bilibili.com/
@@ -29,7 +29,7 @@ features:
   - icon: 🐧
     title: Linux Course
     details: In this course, students will learn how to use essential Linux command-line tools to navigate the file system, manage files, and work efficiently in a terminal-based environment.
-    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+    link: /Linux/en-US/1.0.0
     
   - icon: 🐍
     title: Python
