@@ -27,21 +27,21 @@ features:
     details: >
       在本课程中，学生将学习常用的 Linux 命令行工具，
       掌握文件系统导航、文件管理以及在终端环境下高效工作的能力。
-    link: /Linux/zh-CN/1.0.0
+    link: ./Linux/1.0.0
 
   - icon: 🐍
     title: Python
     details: >
       在本课程中，学生将学习如何编写和运行 Python 程序，
       理解基础编程概念，为自动化、数据处理和人工智能应用打下基础。
-    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+    link: ./Python/1.0.0
 
   - icon: 📷
     title: OpenCV
     details: >
       在本课程中，学生将学习如何使用 Python 结合 OpenCV
       处理图像和视频流，从而构建基础的计算机视觉和视觉识别应用。
-    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+    link: ./OpenCV/1.0.0
 
   - icon: 🤖
     title: ROS

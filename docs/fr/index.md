@@ -16,7 +16,7 @@ hero:
   actions:
     - theme: brand
       text: ▶ Commencer la lecture
-      link: /Linux/fr-FR/1.0.0
+      link: ./Linux/1.0.0
     - theme: alt
       text: Tutoriels vidéo
       link: https://www.bilibili.com/
@@ -28,7 +28,7 @@ features:
       Dans ce cours, les étudiants apprendront à utiliser les outils essentiels
       de la ligne de commande Linux pour naviguer dans le système de fichiers,
       gérer les fichiers et travailler efficacement dans un environnement terminal.
-    link: /Linux/fr-FR/1.0.0
+    link: ./Linux/1.0.0
 
   - icon: 🐍
     title: Python
@@ -36,7 +36,7 @@ features:
       Dans ce cours, les étudiants apprendront à écrire et exécuter des programmes Python,
       à comprendre les concepts fondamentaux de la programmation,
       et à poser les bases pour l’automatisation, le traitement de données et les applications d’IA.
-    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+    link: ./Python/1.0.0
 
   - icon: 📷
     title: OpenCV
@@ -44,7 +44,7 @@ features:
       Dans ce cours, les étudiants apprendront à utiliser OpenCV avec Python
       pour traiter des images et des flux vidéo,
       et ainsi développer des applications de vision par ordinateur et de reconnaissance visuelle.
-    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+    link: ./OpenCV/1.0.0
 
   - icon: 🤖
     title: ROS
