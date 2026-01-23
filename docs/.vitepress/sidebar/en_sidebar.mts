@@ -1,10 +1,12 @@
 export default{
-    '/Linux/':[{
+    '/Linux/':
+    [{
       text: 'Linux Notes'},
       {
         text: 'Chapter 1: Linux Fundamentals and System Usage',
         link: '/Linux/1.0.0',
-        items: [
+        items: 
+        [
           { text: '1.1 What Is Linux', 
             link: '/Linux/1.1.0',
             collapsed: true,
@@ -14,12 +16,41 @@ export default{
               { text: '1.1.3 Core Differences Between Linux and Windows', link: '/Linux/1.1.3' },
             ]
            },
-           { text: '1.2 Basic Linux Operations and Commands', 
-            link: '/Linux/en-US/1.2 Basic Linux Operations and Commands.md',
+           { text: '1.2 Linux Distributions Overview', 
+            link: '/Linux/1.2.0',
             collapsed: true,
-          },                   
-      ]
-    },],
+            items: [
+              { text: '1.2.1 Ubuntu / Debian / CentOS (Overview)', link: '/Linux/1.2.1' },
+              { text: '1.2.2 Desktop vs Server Editions', link: '/Linux/1.2.2' },
+              { text: '1.2.3 Recommended Learning Environments', link: '/Linux/1.2.3' },
+            ]
+           },
+           { text: '1.3 Linux System Structure Overview', 
+            link: '/Linux/1.3.0',
+            collapsed: true,
+            items: [
+              { text: '1.3.1 Kernel / Shell / User Space', link: '/Linux/1.3.1' },
+              { text: '1.3.2 Introduction to the Linux Directory Structure', link: '/Linux/1.3.2' },
+            ]
+           },                 
+        ]
+      },
+      {
+        text: 'Chapter 2: Terminal and Shell Basics',
+        link: '/Linux/2.0.0',
+        items: [
+          { text: '2.1 Terminal and Shell Basics', 
+            link: '/Linux/2.1.0',
+            collapsed: true,
+            items: [
+              { text: '2.1.1 What a Shell Is and How It Works', link: '/Linux/2.1.1' },
+              { text: '2.1.2 Differences Between Terminal, Console, and SSH', link: '/Linux/2.1.2' },
+              { text: '2.1.3 Common Keyboard Shortcuts for Efficient Command-Line Use', link: '/Linux/2.1.3' },
+            ]
+           },
+        ]
+      }
+    ],
     
     '/Language/ROS1/中文/':[{
         text: 'ROS1 课件'},
