@@ -48,10 +48,67 @@ export default{
               { text: '2.1.3 Common Keyboard Shortcuts for Efficient Command-Line Use', link: '/Linux/2.1.3' },
             ]
            },
+           { text: '2.2 File and Directory Operations (Command Line)', 
+            link: '/Linux/2.2.0',
+            collapsed: true,
+            items: [
+              { text: '2.2.1 Navigating the Linux File System', link: '/Linux/2.2.1' },
+              { text: '2.2.2 Creating, Moving, Copying, and Deleting Files and Directories', link: '/Linux/2.2.2' },
+              { text: '2.2.3 Searching for Files and Checking Disk Usage', link: '/Linux/2.2.3' },
+            ]
+           },
+           { text: '2.3 Viewing and Processing Text Files', 
+            link: '/Linux/2.3.0',
+            collapsed: true,
+            items: [
+              { text: '2.3.1 Viewing Text Files', link: '/Linux/2.3.1' },
+              { text: '2.3.2 Searching Text Files', link: '/Linux/2.3.2' },
+              { text: '2.3.3 Combining Text Files', link: '/Linux/2.3.3' },
+            ]
+           },
+           { text: '2.4 vim Editor Basics', 
+            link: '/Linux/2.4.0',
+            collapsed: true,
+            items: [
+              { text: '2.4.1 Basic vim Usage', link: '/Linux/2.4.1' },
+              { text: '2.4.2 Basic Editing Operations', link: '/Linux/2.4.2' },
+              { text: '2.4.3 Saving and Exiting', link: '/Linux/2.4.3' },
+              { text: '2.4.4 Search and Replace (Intro)', link: '/Linux/2.4.4' },
+            ]
+           },
         ]
       }
     ],
-    
+    '/Python/':
+    [{
+      text: 'Python Notes'},
+      {
+        text: 'Chapter 1: Python Basics',
+        link: '/Python/1.0.0',
+        items: [
+          { text: '1.1 Python Basics', 
+            link: '/Python/1.1.0',
+            collapsed: true,
+            items: [
+              { text: '1.1.1 Python Basics', link: '/Python/1.1.1' },
+              { text: '1.1.2 Python Basics', link: '/Python/1.1.2' },
+              { text: '1.1.3 Type Conversion (int() / float() / str())', link: '/Python/1.1.3' },
+            ]
+           },
+        ]
+      }
+    ],
+
+
+
+
+
+
+
+
+
+
+
     '/Language/ROS1/中文/':[{
         text: 'ROS1 课件'},
       {
