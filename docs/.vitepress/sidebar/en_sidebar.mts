@@ -79,6 +79,107 @@ export default{
         ]
       }
     ],
+
+// //1️⃣ Python 基础语法（Syntax Basics）
+// 1.1 基本计算与数据类型
+// 1.1.1 数值类型（int / float / complex）
+// 1.1.2 基本运算符（+ - * / // % **）
+// 1.1.3 类型转换（int() / float() / str()）
+// 1.2 变量与命名规则
+// 1.2.1 变量定义与赋值
+// 1.2.2 多变量赋值
+// 1.2.3 常见命名规范（snake_case）
+// 1.3 输入与输出
+// 1.3.1 print() 的使用
+// 1.3.2 input() 获取用户输入
+// 1.3.3 f-string 格式化输出
+// 2️⃣ 逻辑与流程控制（Control Flow）
+// 2.1 逻辑运算
+// 2.1.1 比较运算符（== != > < >= <=）
+// 2.1.2 逻辑运算符（and / or / not）
+// 2.1.3 布尔值与条件判断
+// 2.2 条件语句
+// 2.2.1 if 语句
+// 2.2.2 if-else 结构
+// 2.2.3 if-elif-else 链
+// 2.3 循环结构
+// 2.3.1 while 循环
+// 2.3.2 for 循环
+// 2.3.3 break / continue / pass
+// 3️⃣ 数据结构（Data Structures）
+// 3.1 列表 List
+// 3.1.1 列表定义与访问
+// 3.1.2 列表常用方法（append / pop / sort）
+// 3.1.3 列表推导式（list comprehension）
+// 3.2 元组 Tuple
+// 3.2.1 元组定义与不可变性
+// 3.2.2 元组解包
+// 3.2.3 元组与列表对比
+// 3.3 字典 Dict
+// 3.3.1 字典的 key-value 结构
+// 3.3.2 字典常用方法（keys / values / items）
+// 3.3.3 遍历字典
+// 3.4 集合 Set
+// 3.4.1 集合的唯一性
+// 3.4.2 集合运算（并 / 交 / 差）
+// 3.4.3 set vs list
+// 4️⃣ 函数与模块（Functions & Modules）
+// 4.1 函数基础
+// 4.1.1 函数定义 def
+// 4.1.2 参数与返回值
+// 4.1.3 默认参数 / 可变参数
+// 4.2 作用域与匿名函数
+// 4.2.1 局部变量与全局变量
+// 4.2.2 lambda 表达式
+// 4.2.3 闭包（closure）基础
+// 4.3 模块与包
+// 4.3.1 import 的几种方式
+// 4.3.2 自定义模块
+// 4.3.3 包结构与 init.py
+// 5️⃣ 面向对象编程（OOP）
+// 5.1 类与对象
+// 5.1.1 class 定义
+// 5.1.2 init 构造方法
+// 5.1.3 实例属性与方法调用
+// 5.2 OOP 核心思想
+// 5.2.1 封装（Encapsulation）
+// 5.2.2 继承（Inheritance）
+// 5.2.3 多态（Polymorphism）
+// 5.3 高级类特性
+// 5.3.1 类变量 vs 实例变量
+// 5.3.2 @classmethod / @staticmethod
+// 5.3.3 str / repr
+// 6️⃣ 异常与文件操作（Exceptions & I/O）
+// 6.1 异常处理
+// 6.1.1 try / except
+// 6.1.2 多异常捕获
+// 6.1.3 自定义异常
+// 6.2 文件操作
+// 6.2.1 打开与关闭文件
+// 6.2.2 读取与写入文本文件
+// 6.2.3 with 语句
+// 7️⃣ 虚拟环境与包管理（Environment & Packages）
+// 7.1 Python 运行环境
+// 7.1.1 Python 解释器原理
+// 7.1.2 pip 的作用
+// 7.1.3 site-packages 结构
+// 7.2 虚拟环境
+// 7.2.1 venv 创建虚拟环境
+// 7.2.2 激活与退出虚拟环境
+// 7.2.3 虚拟环境目录结构
+// 7.3 依赖管理
+// 7.3.1 pip install / uninstall
+// 7.3.2 requirements.txt
+// 7.3.3 依赖冲突与版本锁定
+// 8️⃣ 进阶与工程化（Advanced & Engineering）
+// 8.1 调试与测试
+// 8.1.1 print 调试
+// 8.1.2 pdb 调试器
+// 8.1.3 pytest 基础
+// 8.2 项目结构
+// 8.2.1 标准 Python 项目结构
+// 8.2.2 main 入口设计
+// 8.2.3 配置文件管理//    // 
     '/Python/':
     [{
       text: 'Python Notes'},
@@ -93,6 +194,92 @@ export default{
               { text: '1.1.1 Python Basics', link: '/Python/1.1.1' },
               { text: '1.1.2 Python Basics', link: '/Python/1.1.2' },
               { text: '1.1.3 Type Conversion (int() / float() / str())', link: '/Python/1.1.3' },
+            ]
+           },
+           { text: '1.2 Variables and Naming Conventions', 
+            link: '/Python/1.2.0',
+            collapsed: true,
+            items: [
+              { text: '1.2.1 Variable Definition and Assignment', link: '/Python/1.2.1' },
+              { text: '1.2.2 Multiple Variable Assignment', link: '/Python/1.2.2' },
+              { text: '1.2.3 Naming Conventions (snake_case)', link: '/Python/1.2.3' },
+            ]
+           },
+           { text: '1.3 Input and Output', 
+            link: '/Python/1.3.0',
+            collapsed: true,
+            items: [
+              { text: '1.3.1 Basic Output with print()', link: '/Python/1.3.1' },
+              { text: '1.3.2 Getting User Input with input()', link: '/Python/1.3.2' },
+              { text: '1.3.3 Formatted Output with f-Strings', link: '/Python/1.3.3' },
+            ]
+           },
+           
+        ]
+      },
+      {
+        text: 'Chapter 2: Control Flow',
+        link: '/Python/2.0.0',
+        items: [
+          { text: '2.1 Logical Operations', 
+            link: '/Python/2.1.0',
+            collapsed: true,
+            items: [
+              { text: '2.1.1 Comparison Operators (== != > < >= <=)', link: '/Python/2.1.1' },
+              { text: '2.1.2 Logical Operators (and / or / not)', link: '/Python/2.1.2' },
+              { text: '2.1.3 Boolean Values and Condition Evaluation', link: '/Python/2.1.3' },
+            ]
+           },
+           { text: '2.2 Conditional Statements', 
+            link: '/Python/2.2.0',
+            collapsed: true,
+            items: [
+              { text: '2.2.1 The if Statement', link: '/Python/2.2.1' },
+              { text: '2.2.2 The if-else Structure', link: '/Python/2.2.2' },
+              { text: '2.2.3 The if-elif-else Chain', link: '/Python/2.2.3' },
+            ]
+           },
+           { text: '2.3 Loops', 
+            link: '/Python/2.3.0',
+            collapsed: true,
+            items: [
+              { text: '2.3.1 The while Loop', link: '/Python/2.3.1' },
+              { text: '2.3.2 The for Loop', link: '/Python/2.3.2' },
+              { text: '2.3.3 Loop Control Statements (break / continue / pass)', link: '/Python/2.3.3' },
+            ]
+           },
+
+        ]
+      },
+      {
+        text: 'Chapter 3: Data Structures',
+        link: '/Python/3.0.0',
+        items: [
+          { text: '3.1 Lists', 
+            link: '/Python/3.1.0',
+            collapsed: true,
+            items: [
+              { text: '3.1.1 List Definition and Access', link: '/Python/3.1.1' },
+              { text: '3.1.2 Common List Methods (append / pop / sort)', link: '/Python/3.1.2' },
+              { text: '3.1.3 List Comprehension', link: '/Python/3.1.3' },
+            ]
+           },
+           { text: '3.2 Tuples', 
+            link: '/Python/3.2.0',
+            collapsed: true,
+            items: [
+              { text: '3.2.1 Tuple Definition and Immutability', link: '/Python/3.2.1' },
+              { text: '3.2.2 Tuple Unpacking', link: '/Python/3.2.2' },
+              { text: '3.2.3 Tuples vs Lists', link: '/Python/3.2.3' },
+            ]
+           },
+           { text: '3.3 Dictionaries', 
+            link: '/Python/3.3.0',
+            collapsed: true,
+            items: [
+              { text: '3.3.1 Key–Value Structure', link: '/Python/3.3.1' },
+              { text: '3.3.2 Common Dictionary Methods (keys / values / items)', link: '/Python/3.3.2' },
+              { text: '3.3.3 Iterating Over Dictionaries', link: '/Python/3.3.3' },
             ]
            },
         ]

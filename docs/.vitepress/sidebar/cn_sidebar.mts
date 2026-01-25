@@ -3,7 +3,7 @@ export default{
       text: 'Linux 笔记'},
       {
         text: '第一章：Linux 基础与系统使用',
-        link: '/Linux/1.0.0',
+        link: '/zh/Linux/1.0.0',
         items: [
           { text: '1.1 What Is Linux', 
             link: '/zh/Linux/1.1.0',

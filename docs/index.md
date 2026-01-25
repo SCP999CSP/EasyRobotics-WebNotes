@@ -29,17 +29,17 @@ features:
   - icon: 🐧
     title: Linux Course
     details: In this course, students will learn how to use essential Linux command-line tools to navigate the file system, manage files, and work efficiently in a terminal-based environment.
-    link: /Linux/en-US/1.0.0
+    link: /Linux/1.0.0
     
   - icon: 🐍
     title: Python
     details: In this course, students will learn how to write and run Python programs, understand fundamental programming concepts, and build a foundation for automation, data processing, and AI applications.
-    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+    link: /Python/1.0.0
     
   - icon: 📷
     title: OpenCV
     details: In this course, students will learn how to use OpenCV with Python to process images and video streams, enabling them to build basic computer vision and visual recognition applications.
-    link: /Language/ROS1/English/1 ROS Overview and Environment Setup
+    link: /OpenCV/1.0.0
 
   - icon: 🤖 
     title: ROS
