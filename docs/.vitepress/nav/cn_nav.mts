@@ -1,4 +1,6 @@
 export default[ 
+    { text: 'EasyRobotic HomePage', 
+        link: 'http://easyrobotis.com/'},
     { text: '📚 课程目录', 
         items:[
             { text: 'Linux', link: 'zh/Linux/1.0.0' },

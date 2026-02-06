@@ -1,6 +1,6 @@
 export default[ 
     { text: 'EasyRobotic HomePage', 
-        link: 'https://scp999csp.com/'},
+        link: 'http://easyrobotis.com/'},
     { text: '📚 Course Catalog', 
         items:[
             { text: 'Linux', link: '/Linux/1.0.0' },
