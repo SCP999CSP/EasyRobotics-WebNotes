@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Fundamental Skills for Robotics Learning"
+  name: "Robotics Learning"
   text: "For beginners"
   tagline: >
     These courses introduce key technologies used in robotics and provide

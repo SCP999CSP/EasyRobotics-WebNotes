@@ -4,8 +4,8 @@ import { cn_sidebar, en_sidebar, fr_sidebar} from './sidebar/index.mts'
 
 
 export default defineConfig({
-  title: "EasyRobotic Online Courses",
-  description: "For student learning",
+  title: "EasyRobotis Learning Station",
+  description: "For beginners",
   base: '/',
   head: [["link", { rel: "icon", href: "/2.ico" }]],
 
