@@ -1,5 +1,5 @@
 export default[ 
-    { text: 'EasyRobotic HomePage', 
+    { text: 'EasyRobotis HomePage', 
         link: 'http://easyrobotis.com/'},
     { text: '📚 Course Catalog', 
         items:[
